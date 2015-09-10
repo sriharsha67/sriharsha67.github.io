@@ -1,0 +1,31 @@
+.navigation{
+  border: 0px;
+  border-radius: 0;
+  background: #262b37;
+  color: #c3c8d6;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 1em;
+  height:3em; 
+  margin-bottom: 0;
+
+  &:hover{
+    color: #fff;
+  }
+
+  .navpos{
+    position: relative;
+    left: 50%;
+    transform:translateX(-50%);
+    text-align: center;
+  }
+
+  .linkspace{
+    margin-left:2em;
+    // margin-right:2em;
+    line-height: 1.5em; 
+  }
+}

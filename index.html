@@ -1,23 +1,24 @@
 ---
-layout: default
+layout: land
 ---
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+<section id="home">
+  <div class="container-fluid background">
+    <div class="row">
+      <div class="col-md-12 intro">
+        <h4>Hello, my name is Harsha and I am</h4>
+        <h1 class="fullstack">Full Stack Web Developer</h1>
+      </div>
+      <a href="#profile">
+        <div class="icon">
+          <i class="fa fa-angle-down wow slideInDown" data-wow-duration="1.5s" data-wow-delay="0s" data-wow-iteration="60"></i>
+        </div>
+      </a>
+    </div>
+  </div>
 </div>
+</section>
+
+{% include about.html %}
+{% include skills.html %}
+{% include portfolio.html %}
+{% include contact.html %}

@@ -1,0 +1,33 @@
+#profile{
+  height:80vmin;
+  width: 100vw;
+  background-color: #00BDBD;
+  color: #ffffff;
+  font-size: 1.25em;
+  border: 1px solid transparent;
+
+  .about{
+    position: relative;
+    top: 10%;
+  }
+
+  .heading{
+    text-align: center;
+    padding-bottom: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Architects Daughter', cursive;
+    // font-size: 1.25em;
+  }
+
+  .aboutimage{
+    border-radius: 50%;
+  }
+
+  .name{
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  .details{
+    padding-top: 1em;
+  }  
+}

@@ -1,0 +1,39 @@
+#portfolio{
+  min-height: 80vh;
+  width: 100vw;
+  background-color: #2BB3DD;
+  border: 1px solid #2BB3DD;
+  color: #ffffff;
+  border: 1px solid transparent;
+
+  .heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Architects Daughter', cursive;
+  }
+
+  .projdetails{
+
+    .projectimg{
+      position: relative;
+    }
+
+    .projname{
+      visibility: hidden;
+      position: absolute; 
+      top: 50%;
+      transform:translateY(-50%);
+      // top: 1em; 
+      text-align: center;
+    }
+
+    &:hover .projname{
+      visibility: visible;
+      border: 1px solid #ffffff;
+      padding: 2em;
+      // position: relative;
+      // top: 50%;
+      // transform:translateY(-50%);
+    }
+  }
+}
