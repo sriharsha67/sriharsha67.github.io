@@ -12,28 +12,46 @@
     font-family: 'Architects Daughter', cursive;
   }
 
-  .projdetails{
+  img {
+    width: 100%;
+  }
 
-    .projectimg{
-      position: relative;
-    }
+  .excerpt {
+    background-repeat: no-repeat;
+    background-position: 90% 85%;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9);
+    position: relative;
 
-    .projname{
-      visibility: hidden;
-      position: absolute; 
-      top: 50%;
-      transform:translateY(-50%);
-      // top: 1em; 
-      text-align: center;
-    }
+    &:hover {
+      background-color: black;
 
-    &:hover .projname{
-      visibility: visible;
-      border: 1px solid #ffffff;
-      padding: 2em;
-      // position: relative;
-      // top: 50%;
-      // transform:translateY(-50%);
-    }
+      img {
+        opacity: 0.25;
+      }
+    }    
+  }
+
+  .on-hover-heading {
+    position: absolute;
+    color: white;
+    // font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    font-weight: 700;
+    line-height: 10%;
+  }
+
+  .on-hover-paragraph {
+    display: inline;
+    color: white;
+    // font-family: 'Muli', sans-serif;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 120%;
+    font-size: 0.8em;
   }
 }
