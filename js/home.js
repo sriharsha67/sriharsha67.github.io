@@ -37,4 +37,12 @@ $(document).ready(function() {
       }
     }
   });
+
+  $('body').scrollspy({ target: '#navbar' });
+
+  $('nav').affix({
+    offset: {
+      top: 100
+    }
+  })
 });
