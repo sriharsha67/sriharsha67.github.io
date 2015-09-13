@@ -1,11 +1,11 @@
 $(document).ready(function() {
   var charts = [
     {className: '.skillHTML', percentage: 90},
-    {className: '.skillCSS', percentage: 80},
-    {className: '.skillJS', percentage: 65},
-    {className: '.skilljQuery', percentage: 70},
-    {className: '.skillRuby', percentage: 55},
-    {className: '.skillRails', percentage: 50}
+    {className: '.skillCSS', percentage: 90},
+    {className: '.skillJS', percentage: 75},
+    {className: '.skilljQuery', percentage: 75},
+    {className: '.skillRuby', percentage: 80},
+    {className: '.skillRails', percentage: 80}
   ];
   charts.forEach(function(chart) {
     $(chart.className).ClassyLoader({
@@ -38,7 +38,7 @@ $(document).ready(function() {
     }
   });
 
-  $('body').scrollspy({ target: '#navbar' });
+  $('body').scrollspy({ target: '.navigation' });
 
   $('nav').affix({
     offset: {
