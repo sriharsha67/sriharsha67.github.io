@@ -17,4 +17,13 @@ $(document).ready(function(){
     $(".psdtohtml").on('mouseleave', function(){
       $(this).find("h4").remove();
     });
+
+    $(".socialmatrimony").on('mouseenter', function(){
+      $(this).prepend("<h4 class='on-hover-heading'>Social Matrimony<hr/>     \
+        <p class='on-hover-paragraph'>A New Era of Matrimony</p></h4>  \
+        ");
+    });
+    $(".socialmatrimony").on('mouseleave', function(){
+      $(this).find("h4").remove();
+    });
 });
