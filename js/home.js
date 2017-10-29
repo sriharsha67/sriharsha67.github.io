@@ -18,6 +18,8 @@ $(document).ready(function() {
       percentage: chart.percentage,
       lineWidth: 10,
       start: 'top',
+      displayOnLoad: true,
+      animate: true,
       remainingLineColor: 'rgba(200,200,200,0.1)'
     });
   })
